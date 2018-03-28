@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+h1, h2, h3 {
+    font-family: 'Patua One', cursive;
+    color: #693171;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Slabo 27px', serif;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.about-intro-container {
+    
+  /* background-color: #D6E9FE; */
+  display: flex;
+  justify-content: center;
+}
+
+.about-intro {
+  width: 1200px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about, .code-of-conduct, .contribute {
+    padding: 20px;
+}
+
+.about p, .code-of-conduct p{
+    margin-bottom: 5px
+}
+
+.code-of-conduct {
+    background-color: #D6E9FE;
+}
+
+.code-of-conduct ul{
+    margin-left: 15px;
+}
+
+.contribute {
+    background-color: #fef8b7;
+}
