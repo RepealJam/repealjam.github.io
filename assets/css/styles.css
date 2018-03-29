@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Patua One', cursive;
     color: #693171;
     margin-bottom: 10px;
@@ -50,9 +50,37 @@ hr {
 }
 
 .code-of-conduct ul{
-    margin-left: 15px;
+    margin-left: 20px;
+    padding:10px;
 }
 
-.contribute {
+.contribute, .tel-num {
     background-color: #fef8b7;
+}
+
+.contact-container, .contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    width: 900px;
+    flex-wrap: wrap; 
+}
+
+.contact-item {
+    width: 300px;
+    background-color:white;
+    border:#D6E9FE 1px solid;
+
+}
+
+.contact-item ul {
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-item h3 {
+    margin-top: 10px;
+    text-align: center;
 }
