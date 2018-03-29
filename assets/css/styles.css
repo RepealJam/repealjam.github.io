@@ -84,3 +84,8 @@ hr {
     margin-top: 10px;
     text-align: center;
 }
+
+.contact-item p{
+    padding-left:30px;
+    /* margin-right: 20px; */
+}
