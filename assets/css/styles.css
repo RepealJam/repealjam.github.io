@@ -90,6 +90,9 @@ hr {
     /* margin-top:20px; */
 }
 
+.toolkit .about h1{
+    margin-top:20px;
+}
 .about .howto-container{
     background-color: #EBEFFD;
 }
