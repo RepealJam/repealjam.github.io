@@ -41,10 +41,13 @@ hr {
     padding: 0 20px;
 }
 
-.about p, .code-of-conduct p{
+.about p{
     margin-bottom: 5px
 }
 
+.code-of-conduct p {
+    padding-bottom:5px;
+}
 .code-of-conduct {
     background-color: #D6E9FE;
 }
