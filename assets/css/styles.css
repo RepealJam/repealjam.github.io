@@ -7,7 +7,12 @@
 h1, h2, h3, h4 {
     font-family: 'Patua One', cursive;
     color: #693171;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+h2, h3, h4 {
+    padding-top: 10px;
+
 }
 
 p {
@@ -42,11 +47,12 @@ hr {
 }
 
 .about p{
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .code-of-conduct p {
-    padding-bottom:5px;
+    padding-bottom:10px;
 }
 .code-of-conduct {
     background-color: #D6E9FE;
